@@ -1,37 +1,40 @@
-import { Nav, Navbar, Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
+// React component
+import React, { useState, useEffect } from "react";
+import "./css/Nav.css"; // Make sure the CSS file is in the same directory as your component
 
-function NavbarComponent() {
+const Nav = () => {
+  const [sticky, setSticky] = useState(false);
+
+  const handleScroll = () => {
+    if (
+      window.scrollY >
+      window.innerHeight - document.querySelector(".navbar").offsetHeight
+    ) {
+      setSticky(true);
+    } else {
+      setSticky(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <Navbar bg="dark" expand="lg">
-      <Container>
-        <Navbar.Brand as={Link} to="/">
-          <img
-            class="nav-logo"
-            src="src\assets\sfpwhite.png"
-            // TODO: this file has too much padding 'built in'
-            // Crop the image!
-            height={55}
-            width={55}
-          />
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link as={Link} to="/">
-              Home
-            </Nav.Link>
-            <Nav.Link as={Link} to="/about">
-              About
-            </Nav.Link>
-            <Nav.Link as={Link} to="/contact">
-              Contact
-            </Nav.Link>
-            {/* Add more links as needed */}
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <div className={`navbar ${sticky ? "sticky" : ""}`}>
+      <div className="logo">Logo</div>
+      <nav>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="#events">Events</a>
+        <a href="#donate">Donate</a>
+      </nav>
+    </div>
   );
-}
-export default NavbarComponent;
+};
+
+export default Nav;

@@ -1,0 +1,48 @@
+/* CSS for the Navbar */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Extra content to simulate scrolling - remove in actual use */
+.content {
+  height: 200vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+  border-top: 2px solid #000;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  transition: all 0.3s;
+  z-index: 10;
+}
+
+.navbar.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 15px;
+  color: #333;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}

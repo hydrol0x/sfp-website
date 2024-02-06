@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Sans:ital,wght@0,500;0,800;1,400&family=Noto+Serif&display=swap");
+
+.intro-container {
+  height: 200vh;
+  /* for scrolling testing, later will add actual content */
+}
+
+.intro-container {
+  width: 100%;
+  /* margin: 0; */
+  /* padding-left: 200px !important; */
+}
+
+.home > h1 {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 575%;
+}
+
+.home > h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 250%;
+}
+
+.home > p {
+  font-size: xx-large;
+  font-family: "Noto Sans", sans-serif;
+  width: 50%;
+}
+
+.intro-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-button > div {
+  margin: 0;
+  padding: 0;
+  max-width: 25% !important;
+}
