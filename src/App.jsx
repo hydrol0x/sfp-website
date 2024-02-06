@@ -7,7 +7,7 @@ const App = () => {
   return (
     <>
       <Router>
-        <NavbarComponent />
+        {/* <NavbarComponent /> */}
         <Routes>
           <Route path="/" element={<Home />} />
           {/* <Route path="/about" element={<About />} /> */}
