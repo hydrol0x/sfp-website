@@ -1,31 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Sans:ital,wght@0,500;0,800;1,400&family=Noto+Serif&display=swap");
 
 .intro-container {
-  height: 200vh;
-  /* for scrolling testing, later will add actual content */
-}
-
-.intro-container {
   width: 100%;
+  min-height: 100vh;
   /* margin: 0; */
   /* padding-left: 200px !important; */
 }
 
 .home > h1 {
   font-family: "Archivo Black", sans-serif;
-  font-size: 575%;
+  font-size: 8vw;
 }
 
 .home > h3 {
   font-family: "Noto Sans", sans-serif;
   font-weight: 600;
-  font-size: 250%;
+  font-size: 3vw;
+}
+
+.home > h4 {
+  font-size: 2.5vw;
+  font-family: "Noto Sans", sans-serif;
+  width: 50%;
 }
 
 .home > p {
   font-size: xx-large;
+  width: 75%;
   font-family: "Noto Sans", sans-serif;
-  width: 50%;
 }
 
 .intro-button {
@@ -37,5 +39,28 @@
 .intro-button > div {
   margin: 0;
   padding: 0;
-  max-width: 25% !important;
+  padding-right: 5%;
+  max-width: fit-content !important;
+}
+
+ /* #FF472B */
+ /* #FFE66D OR #FFB20F ?*/ 
+ 
+ /* #3D2B3D */
+ /* #1C2826 */
+
+/* #C5E0D8 */
+ /* #B5FFE9 */
+ /* #1A535C */
+ /* #4B88A2 */
+/* Mission section */
+
+.mission-container {
+  min-height: 75vh;
+  background-color: #C5E0D8;
+  background-color: #FFE66D;
+}
+
+.events-container {
+
 }

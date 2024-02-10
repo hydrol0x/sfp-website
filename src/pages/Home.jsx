@@ -17,16 +17,49 @@ const Home = () => {
           <h1>Future Programmers</h1>
         </Row>
         <Row className="home intro-paragraph">
-          <p>
+          <h4>
             <em>
               Inspiring teens around Florida in programming and computer science
             </em>
-          </p>
+          </h4>
         </Row>
         <Row className="home intro-button mt-5">
           <Col as="div">
             <SFPButton text="Join our cause" styleName="red" />
           </Col>
+        </Row>
+      </Container>
+      <Container
+        fluid
+        className="pt-5 ps-5 pb-5 home section mission-container"
+      >
+        <Row className="pt-5 home home-heading">
+          <h1>Our Vision</h1>
+        </Row>
+        <Row className="home mission-paragraph">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et
+            metus est. Aliquam lacinia felis nibh, id semper nulla maximus
+            sagittis. Proin lacus massa, tristique rhoncus augue ac, viverra
+            ullamcorper arcu. Donec cursus urna eros, a volutpat odio feugiat
+            ac. Morbi sed luctus justo. Donec gravida eget lacus et scelerisque.
+            Phasellus pulvinar ex et dignissim malesuada.
+          </p>
+        </Row>
+      </Container>
+      <Container fluid className="pt-5 ps-5 pb-5 home section events-container">
+        <Row className="pt-5 home home-heading">
+          <h1>Events</h1>
+        </Row>
+        <Row className="home mission-paragraph">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et
+            metus est. Aliquam lacinia felis nibh, id semper nulla maximus
+            sagittis. Proin lacus massa, tristique rhoncus augue ac, viverra
+            ullamcorper arcu. Donec cursus urna eros, a volutpat odio feugiat
+            ac. Morbi sed luctus justo. Donec gravida eget lacus et scelerisque.
+            Phasellus pulvinar ex et dignissim malesuada.
+          </p>
         </Row>
       </Container>
     </>
