@@ -8,6 +8,12 @@
   border-radius: 1vh;
   font-family: "Noto Sans", sans-serif;
   font-size: 1.75vw;
+  box-shadow: 1px 1px 0px black;
+  transition: all 0.15s ease-out;
+}
+
+.SFPButton:hover {
+  box-shadow: -3px 8px 0px black;
 }
 
 .red {
