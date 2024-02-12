@@ -65,7 +65,7 @@ const Home = () => {
           </h4>
         </Row>
         <Row className="home event">
-          <Container className="interschool-container">
+          <Container className="mt-5 interschool-container">
             <Row>
               <Col as="div" className="event" id="event-heading">
                 <h1 className="event">
@@ -87,23 +87,26 @@ const Home = () => {
                   dignissim malesuada.
                 </p>
               </Col>
-              <Col>
+              <Col className="event-stats">
                 <Row>
                   <Col as="div" className="event-stat">
-                    <h2>65+</h2>
-                    <h3>competitors</h3>
+                    <h1>65+</h1>
+                    <h2>competitors</h2>
                   </Col>
                 </Row>
                 <Row>
                   <Col as="div" className="event-stat">
-                    <h2>4</h2>
+                    <h1>4</h1>
                     <h3>schools</h3>
+                  </Col>
+                  <Col as="div" className="event-stat">
+                    <h1>$250</h1>
                   </Col>
                 </Row>
               </Col>
             </Row>
             <Row className="justify-content-md-center event-carousel">
-              <Col md={6} className="">
+              <Col md={7} className="">
                 {/* <img
                   src="https://github.com/hydrol0x/hydrol0x.github.io/blob/main/src/assets/testpictures.png?raw=true"
                   height="500"

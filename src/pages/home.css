@@ -71,7 +71,8 @@
   background-color: #ff472b;
   border-top-right-radius: 10px;
   border: solid black 4px;
-  padding: 0.5em;
+  padding-top: 1em !important;
+  padding-left: 2em !important;
   height: fit-content !important;
 }
 
@@ -83,7 +84,7 @@
   background-color: white;
   max-width: fit-content;
   box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.8);
-  font-size: 5em;
+  font-size: 6em;
   font-family: "Russo One", sans-serif;
 }
 
@@ -106,24 +107,43 @@
   box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.8);
 }
 
+.event-stats {
+}
+
 .event-stat {
   background-color: rgba(179, 255, 232, 0.9);
   font-family: "Archivo Black", sans-serif;
   border-radius: 5px;
-  padding: 0.5em;
   font-size: large;
   border: solid black 2px;
   box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.8);
-  max-width: 50% !important;
   margin: 0.6em;
+  padding: 1em;
+  min-width: fit-content;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+  justify-content: space-evenly;
 }
 
-.event-stat > h2 {
+.event-stat > h1 {
   font-size: 5em;
+  display: inline;
+  padding: 0;
+  margin: 0;
 }
 
 .event-stat > h3 {
   font-size: 2em;
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+
+.event-stat > h2 {
+  font-size: 3em;
+  display: inline;
 }
 
 .event-carousel {
