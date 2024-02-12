@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Sans:ital,wght@0,500;0,800;1,400&family=Noto+Serif&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
 .intro-container {
   width: 100%;
   min-height: 100vh;
@@ -43,24 +43,92 @@
   max-width: fit-content !important;
 }
 
- /* #FF472B */
- /* #FFE66D OR #FFB20F ?*/ 
- 
- /* #3D2B3D */
- /* #1C2826 */
+/* #FF472B */
+/* #FFE66D OR #FFB20F ?*/
+
+/* #3D2B3D */
+/* #1C2826 */
 
 /* #C5E0D8 */
- /* #B5FFE9 */
- /* #1A535C */
- /* #4B88A2 */
+/* #B5FFE9 */
+/* #1A535C */
+/* #4B88A2 */
 /* Mission section */
 
 .mission-container {
   min-height: 75vh;
-  background-color: #C5E0D8;
-  background-color: #FFE66D;
+  background-color: #c5e0d8;
+  background-color: #ffe66d;
 }
 
-.events-container {
+/* Events CSS */
 
+.events-container {
+}
+
+.interschool-container {
+  width: 95% !important;
+  background-color: #ff472b;
+  border-top-right-radius: 10px;
+  border: solid black 4px;
+  padding: 0.5em;
+  height: fit-content !important;
+}
+
+.event > h1 {
+  padding-right: 0.5em;
+  padding-left: 0.3em;
+  border-radius: 5px;
+  border: solid black 4px;
+  background-color: white;
+  max-width: fit-content;
+  box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.8);
+  font-size: 5em;
+  font-family: "Russo One", sans-serif;
+}
+
+.event-content {
+  padding: 0.5em;
+  padding-top: 3em;
+  padding-bottom: 5em;
+  /* height: 40%; */
+  min-height: fit-content;
+  /* background-color: purple; */
+}
+
+.event > p {
+  background-color: #c7d6d1;
+  height: 100%;
+  border-radius: 5px;
+  padding: 0.5em;
+  font-size: 1.5em;
+  border: solid black 2px;
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.8);
+}
+
+.event-stat {
+  background-color: rgba(179, 255, 232, 0.9);
+  font-family: "Archivo Black", sans-serif;
+  border-radius: 5px;
+  padding: 0.5em;
+  font-size: large;
+  border: solid black 2px;
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.8);
+  max-width: 50% !important;
+  margin: 0.6em;
+}
+
+.event-stat > h2 {
+  font-size: 5em;
+}
+
+.event-stat > h3 {
+  font-size: 2em;
+}
+
+.event-carousel {
+  padding: 2em;
+  padding-bottom: 5em;
+  /* padding: 20em !important; */
+  min-height: fit-content !important;
 }
