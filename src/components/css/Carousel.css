@@ -1,15 +1,16 @@
 .carousel {
   position: relative;
-  height: 20em;
+  height: 40vmax;
   width: max-content;
   cursor: pointer;
-  padding: 5em;
+  /* padding: 5em; */
 }
 
 .stacked-image {
   transition: transform 0.5s ease;
   object-fit: cover;
-  height: 20em;
+  max-height: 20em;
+  height: 100%;
   border: 2px solid black;
   border-radius: 4px;
   box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);

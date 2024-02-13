@@ -117,6 +117,34 @@ const Home = () => {
           </Container>
         </Row>
       </Container>
+      <Container fluid className="pt-5 pb-5 home section about-container">
+        <Row className="pt-5 ps-5 home home-heading">
+          <h1>About Us</h1>
+        </Row>
+        <Row className="ps-5  home intro-paragraph">
+          <h4>
+            <em>Made for teens, by teens</em>
+          </h4>
+        </Row>
+        <Row className="pt-5 ms-4 about-images-row">
+          <Col className="about-img">
+            <img src="https://github.com/hydrol0x/sfp-website/assets/34951139/ab412d3c-a0b1-4e6a-a882-0869d0ab9fd8" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et
+              metus est. Aliquam lacinia felis nibh, id semper nulla maximus
+              sagittis.
+            </p>
+          </Col>
+          <Col className="about-img">
+            <img src="https://media.discordapp.net/attachments/476018362363805696/1194287413766393976/image0-4.png?ex=65d4b7d4&is=65c242d4&hm=72257069d20d0aa121160c98ef2684ef7a9d45558388245ab3ed279afd05a0b1&=&format=webp&quality=lossless" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et
+              metus est. Aliquam lacinia felis nibh, id semper nulla maximus
+              sagittis.
+            </p>
+          </Col>
+        </Row>
+      </Container>
     </>
   );
 };

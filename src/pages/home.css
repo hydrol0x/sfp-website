@@ -91,7 +91,7 @@
 .event-content {
   padding: 0.5em;
   padding-top: 3em;
-  padding-bottom: 5em;
+  /* padding-bottom: 5em; */
   /* height: 40%; */
   min-height: fit-content;
   /* background-color: purple; */
@@ -110,6 +110,9 @@
 .event-stats {
 }
 
+.event {
+  font-family: "Noto Sans", sans-serif;
+}
 .event-stat {
   background-color: rgba(179, 255, 232, 0.9);
   font-family: "Archivo Black", sans-serif;
@@ -151,4 +154,33 @@
   padding-bottom: 5em;
   /* padding: 20em !important; */
   min-height: fit-content !important;
+}
+
+.about-container {
+  background-color: #b5ffe9;
+  min-height: 100vh;
+}
+
+.about-img > img {
+  height: 15em;
+  border: 2px solid black;
+  border-radius: 3px;
+  box-shadow: 2px 1px 0px black;
+  transition: box-shadow 0.1s ease-out;
+  margin-right: 1em;
+}
+
+.about-img > img:hover {
+  box-shadow: 5px 3px 0px black;
+}
+
+.about-img {
+  background-color: #ffe66d;
+  margin: 1em;
+  padding: 1em;
+  /* padding-right: 0; */
+  border: 2px solid black;
+  border-top-right-radius: 5px;
+  display: flex;
+  flex-basis: 100%;
 }
