@@ -49,12 +49,18 @@ const Home = () => {
         </Row>
         <Row className="home mission-paragraph">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et
-            metus est. Aliquam lacinia felis nibh, id semper nulla maximus
-            sagittis. Proin lacus massa, tristique rhoncus augue ac, viverra
-            ullamcorper arcu. Donec cursus urna eros, a volutpat odio feugiat
-            ac. Morbi sed luctus justo. Donec gravida eget lacus et scelerisque.
-            Phasellus pulvinar ex et dignissim malesuada.
+            We aim to inspire teens and high schoolers to explore computer
+            science and programming. We believe in the merit of hands-on
+            learning through both competitions and interactive lessons. We hope
+            to create a thriving community of programmers and coders through
+            local hackathons, where participants will get a chance to network,
+            create projects, solve unique problems, win prizes, and most
+            importantly have a lot of fun! Additionally, we host competitive
+            programming competitions and tournaments to both raise interest in
+            computer science and bring back more competitions to Florida after
+            COVID. Competitive programming competitions leverage skills (such as
+            a wide knowledge of algorithms) that are commonly tested for or used
+            in tech and software engineering jobs.
           </p>
         </Row>
       </Container>
@@ -82,13 +88,11 @@ const Home = () => {
             <Row className="event-content event">
               <Col as="div" className="event" id="statewide-para">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                  et metus est. Aliquam lacinia felis nibh, id semper nulla
-                  maximus sagittis. Proin lacus massa, tristique rhoncus augue
-                  ac, viverra ullamcorper arcu. Donec cursus urna eros, a
-                  volutpat odio feugiat ac. Morbi sed luctus justo. Donec
-                  gravida eget lacus et scelerisque. Phasellus pulvinar ex et
-                  dignissim malesuada.
+                  We are bringing large, statewide programming competitions back
+                  to Florida! The Florida Statewide Programming Tournament will
+                  bring students from across the state to Palm Beach County in
+                  order to compete for prizes and, most of all, to have fun!
+                  Food and drinks will be provided at the event.
                 </p>
               </Col>
               <Col className="event-stats">
@@ -131,13 +135,14 @@ const Home = () => {
             <Row className="event-content event">
               <Col as="div" className="event" id="event-para">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                  et metus est. Aliquam lacinia felis nibh, id semper nulla
-                  maximus sagittis. Proin lacus massa, tristique rhoncus augue
-                  ac, viverra ullamcorper arcu. Donec cursus urna eros, a
-                  volutpat odio feugiat ac. Morbi sed luctus justo. Donec
-                  gravida eget lacus et scelerisque. Phasellus pulvinar ex et
-                  dignissim malesuada.
+                  We hosted an interschool competition together with the
+                  Suncoast CS Club and participating schools throughout the
+                  School District of Palm Beach County. The competition focuse
+                  on competitive programming puzzles that involve mathematical,
+                  logical, and algorithmic thinking. With over 65 participants,
+                  we hope that the interschool competition can continue in the
+                  future to bring competitive programming to PBC and South
+                  Florida.
                 </p>
               </Col>
               <Col className="event-stats">
@@ -209,9 +214,10 @@ const Home = () => {
                   <em>Vice-President & Co-founder</em>
                 </h5>
               </h1>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et
-              metus est. Aliquam lacinia felis nibh, id semper nulla maximus
-              sagittis.
+              Hi! I'm a student at Suncoast Highschool and I am currently
+              focusing on scientific programming and web dev. I also enjoy
+              participating in hackathons, which got me to help start the SFP.
+              In my free time I like to draw and play guitar.
             </p>
           </Col>
         </Row>
