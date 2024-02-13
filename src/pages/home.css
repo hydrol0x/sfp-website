@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Sans:ital,wght@0,500;0,800;1,400&family=Noto+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Protest+Strike");
+
 .intro-container {
   width: 100%;
   min-height: 100vh;
@@ -57,7 +59,6 @@
 
 .mission-container {
   min-height: 75vh;
-  background-color: #c5e0d8;
   background-color: #ffe66d;
 }
 
@@ -66,11 +67,43 @@
 .events-container {
 }
 
+.statewide-container {
+  width: 95% !important;
+  background-color: #1a535c;
+  border-top-right-radius: 10px;
+  border: solid black 3px;
+  padding-top: 1em !important;
+  padding-left: 2em !important;
+  height: fit-content !important;
+}
+
+.statewide-event-stat {
+  background-color: #ffe66d !important;
+}
+
+#statewide-para > p {
+  background-color: hsl(50, 80%, 90%) !important;
+}
+
+#register-button {
+  transition: box-shadow 0.15s ease-out;
+  box-shadow: 0px 10px 0px black;
+}
+
+#register-button:hover {
+  box-shadow: 0px 14px 0px black;
+}
+
+#register-button > a {
+  text-decoration: none;
+  color: black;
+}
+
 .interschool-container {
   width: 95% !important;
   background-color: #ff472b;
   border-top-right-radius: 10px;
-  border: solid black 4px;
+  border: solid black 3px;
   padding-top: 1em !important;
   padding-left: 2em !important;
   height: fit-content !important;
@@ -80,10 +113,10 @@
   padding-right: 0.5em;
   padding-left: 0.3em;
   border-radius: 5px;
-  border: solid black 4px;
+  border: solid black 2px;
   background-color: white;
   max-width: fit-content;
-  box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.8);
+  box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.8);
   font-size: 6em;
   font-family: "Russo One", sans-serif;
 }
@@ -91,7 +124,7 @@
 .event-content {
   padding: 0.5em;
   padding-top: 3em;
-  /* padding-bottom: 5em; */
+  padding-bottom: 5em;
   /* height: 40%; */
   min-height: fit-content;
   /* background-color: purple; */
@@ -103,8 +136,8 @@
   border-radius: 5px;
   padding: 0.5em;
   font-size: 1.5em;
-  border: solid black 2px;
-  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.8);
+  border: solid black 1px;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
 }
 
 .event-stats {
@@ -118,8 +151,8 @@
   font-family: "Archivo Black", sans-serif;
   border-radius: 5px;
   font-size: large;
-  border: solid black 2px;
-  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.8);
+  border: solid black 1px;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
   margin: 0.6em;
   padding: 1em;
   min-width: fit-content;
@@ -135,6 +168,7 @@
   display: inline;
   padding: 0;
   margin: 0;
+  font-weight: bolder;
 }
 
 .event-stat > h3 {
@@ -142,11 +176,13 @@
   display: inline;
   padding: 0;
   margin: 0;
+  font-weight: bolder;
 }
 
 .event-stat > h2 {
   font-size: 3em;
   display: inline;
+  font-weight: bolder;
 }
 
 .event-carousel {
@@ -170,10 +206,6 @@
   margin-right: 1em;
 }
 
-.about-img > img:hover {
-  box-shadow: 5px 3px 0px black;
-}
-
 .about-img {
   background-color: #ffe66d;
   margin: 1em;
@@ -183,4 +215,25 @@
   border-top-right-radius: 5px;
   display: flex;
   flex-basis: 100%;
+}
+
+.about-img > p > h1 {
+  /* background-color: white; */
+  background-color: hsl(50, 100%, 85%);
+  width: 100%;
+  padding: 0.2em;
+  border: solid black 1px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 0px black;
+  transition: box-shadow 0.15s ease-out;
+}
+
+.about-img > p > h1 > a {
+  text-decoration: none;
+  color: black;
+}
+
+.about-img > p > h1:hover {
+  box-shadow: 4px 3px 0px black;
+  cursor: pointer;
 }

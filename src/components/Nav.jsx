@@ -6,13 +6,16 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="logo">
-        <img src="src\assets\sfpblack.png" height={50} />
+        <img
+          src="https://github.com/hydrol0x/sfp-website/assets/34951139/fb4b2742-ae69-4b24-b1e8-76a8c6faf698"
+          height={50}
+        />
       </div>
       <nav className="nav-links">
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
         <a href="#events">Events</a>
-        <a href="#donate">Donate</a>
+        <a href="#about">About</a>
+        {/* <a href="#donate">Donate</a>
+        <a href="#contact">Contact</a> */}
       </nav>
     </div>
   );

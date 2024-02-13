@@ -12,6 +12,11 @@
   transition: all 0.15s ease-out;
 }
 
+.SFPButton > a {
+  text-decoration: none;
+  color: white;
+}
+
 .SFPButton:hover {
   box-shadow: -3px 8px 0px black;
 }
