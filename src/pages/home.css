@@ -131,6 +131,7 @@
   max-width: fit-content;
   box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.8);
   font-size: 5em;
+  font-size: 6vw;
   font-family: "Russo One", sans-serif;
 }
 
@@ -177,7 +178,7 @@
 }
 
 .event-stat > h1 {
-  font-size: 5em;
+  font-size: 8vw;
   display: inline;
   padding: 0;
   margin: 0;
@@ -185,7 +186,7 @@
 }
 
 .event-stat > h3 {
-  font-size: 2em;
+  font-size: 2vw;
   display: inline;
   padding: 0;
   margin: 0;
@@ -193,7 +194,7 @@
 }
 
 .event-stat > h2 {
-  font-size: 3em;
+  font-size: 3.5vw;
   display: inline;
   font-weight: bolder;
 }
