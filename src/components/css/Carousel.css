@@ -3,6 +3,10 @@
   height: 30vmax;
   width: max-content;
   cursor: pointer;
+
+  @media (max-width: 800px) {
+    height: 20vmax;
+  }
 }
 
 .stacked-image {
