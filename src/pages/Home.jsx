@@ -34,7 +34,8 @@ const Home = () => {
         </Row>
         <Row className="home intro-button mt-5">
           <Col as="div">
-            <SFPButton text="Join our cause" styleName="red" link="#donate" />
+            {/* TODO: change link to donate  */}
+            <SFPButton text="Join our cause" styleName="red" link="#events" />
           </Col>
         </Row>
       </Container>
@@ -190,7 +191,7 @@ const Home = () => {
         </Row>
         <Row className="pt-5 ms-4 about-images-row">
           <Col className="about-img">
-            <img src="https://media.discordapp.net/attachments/476018362363805696/1194287413766393976/image0-4.png?ex=65d4b7d4&is=65c242d4&hm=72257069d20d0aa121160c98ef2684ef7a9d45558388245ab3ed279afd05a0b1&=&format=webp&quality=lossless" />
+            <img src="https://github.com/hydrol0x/sfp-website/assets/34951139/aea38fed-e27f-4f2e-9291-3474db037ab6" />
             <p>
               <h1>
                 <a href="https://www.linkedin.com/in/luca-pishos-0475622a4/">
@@ -200,9 +201,7 @@ const Home = () => {
                   <em>President & Co-founder</em>
                 </h5>
               </h1>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et
-              metus est. Aliquam lacinia felis nibh, id semper nulla maximus
-              sagittis.
+              Student at Suncoast High School.
             </p>
           </Col>
           <Col className="about-img">
