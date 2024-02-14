@@ -1,8 +1,3 @@
-# React + Vite
+# The Society for Future Programmers 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+We aim to inspire teens and high schoolers to explore computer science and programming. We believe in the merit of hands-on learning through both competitions and interactive lessons. We hope to create a thriving community of programmers and coders through local hackathons, where participants will get a chance to network, create projects, solve unique problems, win prizes, and most importantly have a lot of fun! Additionally, we host competitive programming competitions and tournaments to both raise interest in computer science and bring back more competitions to Florida after COVID. Competitive programming competitions leverage skills (such as a wide knowledge of algorithms) that are commonly tested for or used in tech and software engineering jobs.
